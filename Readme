@@ -1,3 +1,11 @@
-This is a game for playing Tictactoe.
-You can play either against each other or against the computer.
+**General**
+
+This is a game for playing Tictactoe. You can play either against each other or against the computer.
+
+**Tools**
+
 It is written completely in Java.
+
+**Requirements**
+
+You need the Java Virtual Machine installed on Your computer, the game is started from the LS-class.

@@ -1,10 +1,16 @@
 package Game;
 
-//Class game.Button extends JButton with (x,y) coordinates
+/**
+ * Class game.Button extends JButton with (x,y) coordinates
+ *
+ */
 class Button extends javax.swing.JButton {
-	public int i; // The x- and y- coordinate of the button in a GridLayout
+	public int i; 
 	public int j;
 
+	/**
+	 * Constructor
+	 */
 	public Button(int x, int y) {
 		super(); // Create a JButton with a blank icon
 		super.setIcon(new javax.swing.ImageIcon(("Pictures/None.png")));
@@ -12,14 +18,17 @@ class Button extends javax.swing.JButton {
 		this.j = y;
 	}
 
-	// Return row coordinate
+	/**
+	 * returning the row-coordinate
+	 */
 	public int get_i() {
 		return i;
 	}
 
-	// Return column coordinate
+	/**
+	 * Returning the column-coordinata
+	 */
 	public int get_j() {
 		return j;
 	}
-
 }
